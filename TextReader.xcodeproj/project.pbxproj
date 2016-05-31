@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC15BC261CFC15020066560B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC15BC251CFC15020066560B /* AppDelegate.swift */; };
+		CC15BC281CFC15020066560B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC15BC271CFC15020066560B /* ViewController.swift */; };
+		CC15BC2B1CFC15020066560B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC15BC291CFC15020066560B /* Main.storyboard */; };
+		CC15BC2D1CFC15020066560B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC15BC2C1CFC15020066560B /* Assets.xcassets */; };
+		CC15BC301CFC15020066560B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC15BC2E1CFC15020066560B /* LaunchScreen.storyboard */; };
+		CC15BC3B1CFC15020066560B /* TextReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC15BC3A1CFC15020066560B /* TextReaderTests.swift */; };
+		CC15BC461CFC15020066560B /* TextReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC15BC451CFC15020066560B /* TextReaderUITests.swift */; };
+		CC15BC561CFC15E70066560B /* UIView+IBInspect.m in Sources */ = {isa = PBXBuildFile; fileRef = CC15BC551CFC15E70066560B /* UIView+IBInspect.m */; };
+		CC15BC581CFC17830066560B /* SeelctLauageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC15BC571CFC17830066560B /* SeelctLauageViewController.swift */; };
+		CC15BC5A1CFC178E0066560B /* SpeakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC15BC591CFC178E0066560B /* SpeakViewController.swift */; };
+		CC15BC5C1CFC18B90066560B /* SpeakerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC15BC5B1CFC18B90066560B /* SpeakerManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC15BC371CFC15020066560B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC15BC1A1CFC15020066560B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC15BC211CFC15020066560B;
+			remoteInfo = TextReader;
+		};
+		CC15BC421CFC15020066560B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC15BC1A1CFC15020066560B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC15BC211CFC15020066560B;
+			remoteInfo = TextReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC15BC221CFC15020066560B /* TextReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC15BC251CFC15020066560B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC15BC271CFC15020066560B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC15BC2A1CFC15020066560B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC15BC2C1CFC15020066560B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC15BC2F1CFC15020066560B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC15BC311CFC15020066560B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC15BC361CFC15020066560B /* TextReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC15BC3A1CFC15020066560B /* TextReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextReaderTests.swift; sourceTree = "<group>"; };
+		CC15BC3C1CFC15020066560B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC15BC411CFC15020066560B /* TextReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC15BC451CFC15020066560B /* TextReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextReaderUITests.swift; sourceTree = "<group>"; };
+		CC15BC471CFC15020066560B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC15BC531CFC15E70066560B /* TextReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextReader-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC15BC541CFC15E70066560B /* UIView+IBInspect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IBInspect.h"; sourceTree = "<group>"; };
+		CC15BC551CFC15E70066560B /* UIView+IBInspect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBInspect.m"; sourceTree = "<group>"; };
+		CC15BC571CFC17830066560B /* SeelctLauageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeelctLauageViewController.swift; sourceTree = "<group>"; };
+		CC15BC591CFC178E0066560B /* SpeakViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakViewController.swift; sourceTree = "<group>"; };
+		CC15BC5B1CFC18B90066560B /* SpeakerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC15BC1F1CFC15020066560B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC15BC331CFC15020066560B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC15BC3E1CFC15020066560B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC15BC191CFC15020066560B = {
+			isa = PBXGroup;
+			children = (
+				CC15BC241CFC15020066560B /* TextReader */,
+				CC15BC391CFC15020066560B /* TextReaderTests */,
+				CC15BC441CFC15020066560B /* TextReaderUITests */,
+				CC15BC231CFC15020066560B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC15BC231CFC15020066560B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC15BC221CFC15020066560B /* TextReader.app */,
+				CC15BC361CFC15020066560B /* TextReaderTests.xctest */,
+				CC15BC411CFC15020066560B /* TextReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC15BC241CFC15020066560B /* TextReader */ = {
+			isa = PBXGroup;
+			children = (
+				CC15BC541CFC15E70066560B /* UIView+IBInspect.h */,
+				CC15BC551CFC15E70066560B /* UIView+IBInspect.m */,
+				CC15BC5B1CFC18B90066560B /* SpeakerManager.swift */,
+				CC15BC251CFC15020066560B /* AppDelegate.swift */,
+				CC15BC271CFC15020066560B /* ViewController.swift */,
+				CC15BC571CFC17830066560B /* SeelctLauageViewController.swift */,
+				CC15BC591CFC178E0066560B /* SpeakViewController.swift */,
+				CC15BC291CFC15020066560B /* Main.storyboard */,
+				CC15BC2C1CFC15020066560B /* Assets.xcassets */,
+				CC15BC2E1CFC15020066560B /* LaunchScreen.storyboard */,
+				CC15BC311CFC15020066560B /* Info.plist */,
+				CC15BC531CFC15E70066560B /* TextReader-Bridging-Header.h */,
+			);
+			path = TextReader;
+			sourceTree = "<group>";
+		};
+		CC15BC391CFC15020066560B /* TextReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC15BC3A1CFC15020066560B /* TextReaderTests.swift */,
+				CC15BC3C1CFC15020066560B /* Info.plist */,
+			);
+			path = TextReaderTests;
+			sourceTree = "<group>";
+		};
+		CC15BC441CFC15020066560B /* TextReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC15BC451CFC15020066560B /* TextReaderUITests.swift */,
+				CC15BC471CFC15020066560B /* Info.plist */,
+			);
+			path = TextReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC15BC211CFC15020066560B /* TextReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC15BC4A1CFC15020066560B /* Build configuration list for PBXNativeTarget "TextReader" */;
+			buildPhases = (
+				CC15BC1E1CFC15020066560B /* Sources */,
+				CC15BC1F1CFC15020066560B /* Frameworks */,
+				CC15BC201CFC15020066560B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextReader;
+			productName = TextReader;
+			productReference = CC15BC221CFC15020066560B /* TextReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC15BC351CFC15020066560B /* TextReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC15BC4D1CFC15020066560B /* Build configuration list for PBXNativeTarget "TextReaderTests" */;
+			buildPhases = (
+				CC15BC321CFC15020066560B /* Sources */,
+				CC15BC331CFC15020066560B /* Frameworks */,
+				CC15BC341CFC15020066560B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC15BC381CFC15020066560B /* PBXTargetDependency */,
+			);
+			name = TextReaderTests;
+			productName = TextReaderTests;
+			productReference = CC15BC361CFC15020066560B /* TextReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC15BC401CFC15020066560B /* TextReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC15BC501CFC15020066560B /* Build configuration list for PBXNativeTarget "TextReaderUITests" */;
+			buildPhases = (
+				CC15BC3D1CFC15020066560B /* Sources */,
+				CC15BC3E1CFC15020066560B /* Frameworks */,
+				CC15BC3F1CFC15020066560B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC15BC431CFC15020066560B /* PBXTargetDependency */,
+			);
+			name = TextReaderUITests;
+			productName = TextReaderUITests;
+			productReference = CC15BC411CFC15020066560B /* TextReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC15BC1A1CFC15020066560B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "武淅 段";
+				TargetAttributes = {
+					CC15BC211CFC15020066560B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NYLW8B5Y4M;
+					};
+					CC15BC351CFC15020066560B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CC15BC211CFC15020066560B;
+					};
+					CC15BC401CFC15020066560B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CC15BC211CFC15020066560B;
+					};
+				};
+			};
+			buildConfigurationList = CC15BC1D1CFC15020066560B /* Build configuration list for PBXProject "TextReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC15BC191CFC15020066560B;
+			productRefGroup = CC15BC231CFC15020066560B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC15BC211CFC15020066560B /* TextReader */,
+				CC15BC351CFC15020066560B /* TextReaderTests */,
+				CC15BC401CFC15020066560B /* TextReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC15BC201CFC15020066560B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC15BC301CFC15020066560B /* LaunchScreen.storyboard in Resources */,
+				CC15BC2D1CFC15020066560B /* Assets.xcassets in Resources */,
+				CC15BC2B1CFC15020066560B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC15BC341CFC15020066560B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC15BC3F1CFC15020066560B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC15BC1E1CFC15020066560B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC15BC561CFC15E70066560B /* UIView+IBInspect.m in Sources */,
+				CC15BC281CFC15020066560B /* ViewController.swift in Sources */,
+				CC15BC581CFC17830066560B /* SeelctLauageViewController.swift in Sources */,
+				CC15BC5A1CFC178E0066560B /* SpeakViewController.swift in Sources */,
+				CC15BC261CFC15020066560B /* AppDelegate.swift in Sources */,
+				CC15BC5C1CFC18B90066560B /* SpeakerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC15BC321CFC15020066560B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC15BC3B1CFC15020066560B /* TextReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC15BC3D1CFC15020066560B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC15BC461CFC15020066560B /* TextReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC15BC381CFC15020066560B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC15BC211CFC15020066560B /* TextReader */;
+			targetProxy = CC15BC371CFC15020066560B /* PBXContainerItemProxy */;
+		};
+		CC15BC431CFC15020066560B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC15BC211CFC15020066560B /* TextReader */;
+			targetProxy = CC15BC421CFC15020066560B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC15BC291CFC15020066560B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC15BC2A1CFC15020066560B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC15BC2E1CFC15020066560B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC15BC2F1CFC15020066560B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC15BC481CFC15020066560B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC15BC491CFC15020066560B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC15BC4B1CFC15020066560B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TextReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.173key.TextSpeaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TextReader/TextReader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC15BC4C1CFC15020066560B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TextReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.173key.TextSpeaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TextReader/TextReader-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CC15BC4E1CFC15020066560B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.TextReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextReader.app/TextReader";
+			};
+			name = Debug;
+		};
+		CC15BC4F1CFC15020066560B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.TextReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextReader.app/TextReader";
+			};
+			name = Release;
+		};
+		CC15BC511CFC15020066560B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.TextReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextReader;
+			};
+			name = Debug;
+		};
+		CC15BC521CFC15020066560B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.TextReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC15BC1D1CFC15020066560B /* Build configuration list for PBXProject "TextReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC15BC481CFC15020066560B /* Debug */,
+				CC15BC491CFC15020066560B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC15BC4A1CFC15020066560B /* Build configuration list for PBXNativeTarget "TextReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC15BC4B1CFC15020066560B /* Debug */,
+				CC15BC4C1CFC15020066560B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC15BC4D1CFC15020066560B /* Build configuration list for PBXNativeTarget "TextReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC15BC4E1CFC15020066560B /* Debug */,
+				CC15BC4F1CFC15020066560B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC15BC501CFC15020066560B /* Build configuration list for PBXNativeTarget "TextReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC15BC511CFC15020066560B /* Debug */,
+				CC15BC521CFC15020066560B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC15BC1A1CFC15020066560B /* Project object */;
+}
